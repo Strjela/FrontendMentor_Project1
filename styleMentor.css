@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+@media only screen and (max-width: 375px) {
+
+    .container{
+        max-width: 80%;
+        margin: 20px;
+    }
+
+    .head{
+        font-size: 22px;
+        font-weight: 900;
+
+    }
+
+    .text{
+        font-size: 5%;
+    }
+}
+
+
+body {
+
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+    max-width: 450px;
+
+
+
+    
+}
+
+.cont-text {
+    padding: 7%;
+
+}
+
+.head {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+
+}
+
+.text {
+
+    
+    font-size: 16px;
+    color: #8a8a8a;
+    margin: 0 36px ;
+    margin-bottom: 22px;
+    justify-content: center;
+    text-align: center;
+    
+
+   
+
+
+}
+
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    padding-left: 16px;
+
+}
+
+
+.annual {
+    margin-bottom: 2px;
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+}
+
+.year {
+    margin-top: 0;
+    color: #8a8a8a;
+    font-weight: 500;
+}
+
+
+.change {
+    font-weight: 900;
+    color: hsl(244deg 92% 61%);
+    cursor: pointer;
+}
+
+.change:active {
+    opacity: 0.7;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding: 16px  0;
+
+    border-radius: 10px;
+
+    background-color: hsl(244deg 69% 52%);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+
+    margin: 30px 22px;
+
+    box-shadow: 0px 18px 12px rgba(59, 48, 217, 0.13);
+
+
+
+}
+
+
+.pay:active {
+
+    opacity: 0.6;
+    
+}
+
+
+
+.cancle {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: 700;
+
+    padding-top: 0;
+    padding-bottom: 8px;
+
+
+}
+
+.cancle:active {
+    color: hsl(223, 47%, 23%);
+}
+
